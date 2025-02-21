@@ -28,12 +28,15 @@
   "author": "Paweł Łukasiewicz <contact@pawellukasiewicz.dev> (https://pawellukasiewicz.dev)",
   "license": "MIT",
   "devDependencies": {
+    "@eslint/js": "^9.21.0",
     "@types/node": "^18.0.0",
     "@types/ws": "^8.5.0",
-    "eslint": "^9.20.1",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0",
     "prettier": "^3.5.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^8.24.1"
   },
   "packageManager": "pnpm@10.2.0+sha512.0d27364e0139c6aadeed65ada153135e0ca96c8da42123bd50047f961339dc7a758fc2e944b428f52be570d1bd3372455c1c65fa2e7aa0bfbf931190f9552001",
   "dependencies": {

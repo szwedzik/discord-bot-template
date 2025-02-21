@@ -1,10 +1,10 @@
-import { Client, Collection } from "discord.js";
+import { Client, Collection, ClientOptions } from "discord.js";
 
 export class BotClient extends Client {
-  events: Collection<any, any>;
-  commands: Collection<any, any>;
+  events: Collection<unknown, unknown>;
+  commands: Collection<unknown, unknown>;
 
-  constructor(options: any) {
+  constructor(options: ClientOptions) {
     super(options);
     this.events = new Collection();
     this.commands = new Collection();

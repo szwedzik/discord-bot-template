@@ -1,0 +1,43 @@
+{
+  "name": "discord-bot-typescript-template",
+  "version": "0.0.1-dev",
+  "description": "this is a template for a discord bot using typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write ."
+  },
+  "engines": {
+    "node": ">=23.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szwedzik/discord-bot-template.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "typescript",
+    "template"
+  ],
+  "author": "Paweł Łukasiewicz <contact@pawellukasiewicz.dev> (https://pawellukasiewicz.dev)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/ws": "^8.5.0",
+    "eslint": "^9.20.1",
+    "prettier": "^3.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "pnpm@10.2.0+sha512.0d27364e0139c6aadeed65ada153135e0ca96c8da42123bd50047f961339dc7a758fc2e944b428f52be570d1bd3372455c1c65fa2e7aa0bfbf931190f9552001",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  }
+}
